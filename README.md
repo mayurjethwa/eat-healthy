@@ -24,3 +24,5 @@ Making individuals aware of good eating habits and the factors that contribute t
 * QnA Maker Service
 
 ## API Used: https://developer.edamam.com/edamam-recipe-api
+
+### Completed this project as a part of Future Ready Talent Program (Virtual Internship) offered by Microsoft in collabration with FutureSkills prime, NASSCOM And AICTE
