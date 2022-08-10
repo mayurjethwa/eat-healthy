@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device=width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="icon" href="Images/eat-healthy-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Eat <span class="fas fa-utensils"></span> Healthy</a>
+        <div id="menu"><i class="fas fa-bars"></i>
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#protect">Protection</a></li>
+                <li><a href="protect.html">Food</a></li>
+                <li><a href="#symtoms">Symptoms</a></li>
+                <li><a href="bot.html">Bot</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <img src="Images/moon.svg" id="icon">
+            </ul>
+        </nav>
+    </header>
+    <!---------------------------------------------------->
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Eat Healthy</h2>
+            <p>Eating a healthy diet is very important during the COVID-19 pandemic. What we eat and drink can affect our body’s ability to prevent, fight and recover from infections.</p>
+            
+        </div>
+        </div>
+        <div class="image">
+            <img id="theme-toggle-img" src="Images/background.svg" alt="">
+        </div>
+    </section>
+    <!------------------------------------------------------>
+    <section class="protect" id="protect">
+        <h1 class="heading">Take steps to <span> Protect </span> yourself and your dear ones</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/hands.png" alt="">
+                <h2>Wash Hands</h2>
+                <a href="Wash_hands.html" class="btn">Learn More</a>
+            </div>
+            <div class="box">
+                <img src="Images/healthy.png" alt="">
+                <h2>Eat Healthy</h2>
+                <a href="eat_healthy.html" class="btn">Learn More</a>
+            </div>
+            <div class="box">
+                <img src="Images/diet.png" alt="">
+                <h2>Change Diet</h2>
+                <a href="diet.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------------------->
+    <section class="symtoms" id="symtoms">
+        <div class="content">
+            <h1 class="heading"><span>What are the main</span> Symptoms of unhealthy diet</h1>
+            <ul>
+                <div class="symtoms1">
+                    <li>Unexplained Fatigue</li>
+                    <li>Diarrhea</li>
+                    <li>Brittle and dry hair</li>
+                </div>&nbsp; &nbsp;
+                <div class="symtoms2">
+                    <li>Mouth Problems</li>
+                    <li>Apathy or Irriability</li>
+                </div>
+            </ul>
+            <a href="causes.html" class="btn">Know More</a>
+        </div>
+        <div class="image">
+            <img src="Images/symtoms.png" alt="">
+        </div>
+    </section>
+    <!------------------------------------------------------------------------->
+    <!-- <section class="grid" id="grid">
+        <div class="image">
+        </div>
+    </section> -->
+    <!----------------------------------------------------------------------------->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h2>About Us</h2>
+                <p>Contact Us and stay updated 😷</p>
+            </div>
+            <div class="box">
+                <h2>Navbars</h2>
+                <a href="#home">Home</a>
+                <li><a href="#protect">Protection</a></li>
+                <a href="protect.html">Food</a>
+                <a href="#symtoms">Symtoms</a>
+                <a href="bot.html">Bot</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+            <div class="box">
+                <h2>Contact Info</h2>
+                <p>mumbai, 12345</p>
+                <p>mumbai,India-12345</p>
+                <p>abc@gmail.com</p>
+                
+            </div>
+        </div>
+        <h1 class="credit"><a href="#">Developed By Mayur J</a></h1>
+    </section>
+
+    <!---------------------------------->
+    <a href="#home" class="scroll-top" aria-label="scroll-top-icon">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!------------------------------------------------------------------------------>
+    <script>
+        var icon = document.getElementById("icon");
+        var bg_dark = document.getElementById("theme-toggle-img");
+
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "Images/sun.svg";
+                bg_dark.src = "Images/dark-background.svg"
+            } else {
+                icon.src = "Images/moon.svg";
+                bg_dark.src = "Images/background.svg"
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+
+    <!-------------------------------------------------------------------->
+</body>
+
+</html>

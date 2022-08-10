@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width-device=width,initial-scale=1.0">
+      <meta charset="utf-8">
+      <link rel="icon" href="Images/eat-healthy-icon.png">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/contact.css">
+      <title>Contact</title>
+   </head>
+   <body>
+      <div>
+         <a href="index.html" class="btn">Back</a>
+      </div>
+      <h1><span>Contact Us !!</span></h1>
+      <div class="container">
+         <form id="contact" action="contact.php" method="post">
+            <h3>Eat Healthy</h3>
+            <h4>Contact us for any query</h4>
+            <fieldset>
+               <input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+               <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+               <input name="phone" placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+               <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+         </form>
+      </div>
+   </body>
+</html>
