@@ -11,6 +11,11 @@ So, "Eat Healthy" focus to make people aware about healthy diet and cause of unh
 ## :dart: Aim & Objective:
 Making individuals aware of good eating habits and the factors that contribute to poor eating is the project's primary goal. Encouraging youth to maintain a healthy diet and make others aware of the importance of doing the same.
 
+## :desktop_computer: Live Demo: 
+https://eat-healthy.azurewebsites.net/eat-healthy
+
+## :clapper: Demo Video: 
+https://drive.google.com/file/d/1sOSFW4r7OVWYeTBz84RL8jWk4M5Ivnx7/view?usp=sharing
 ## :computer: Technology:
 * HTML
 * CSS
@@ -25,4 +30,4 @@ Making individuals aware of good eating habits and the factors that contribute t
 
 ## API Used: https://developer.edamam.com/edamam-recipe-api
 
-### Completed this project as a part of Future Ready Talent Program (Virtual Internship) offered by Microsoft in collabration with FutureSkills prime, NASSCOM And AICTE
+#### Completed this project as a part of Future Ready Talent Program (Virtual Internship) offered by Microsoft in collabration with FutureSkills prime, NASSCOM And AICTE
